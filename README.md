@@ -2,24 +2,24 @@
 
 Sistema web completo para la gestión de inventario de una farmacia, desarrollado con Django REST Framework en el backend y React.js en el frontend.
 
-## 🚀 Características
+##  Características
 
-- ✅ CRUD completo de productos
-- ✅ Gestión de proveedores
-- ✅ Categorías predefinidas de medicamentos
-- ✅ Eliminación lógica de productos
-- ✅ Filtros avanzados (por categoría, búsqueda, estado)
-- ✅ Alertas de stock bajo
-- ✅ Interfaz responsive y moderna
-- ✅ API REST completamente documentada
+-  CRUD completo de productos
+-  Gestión de proveedores
+-  Categorías predefinidas de medicamentos
+-  Eliminación lógica de productos
+-  Filtros avanzados (por categoría, búsqueda, estado)
+-  Alertas de stock bajo
+-  Interfaz responsive y moderna
+-  API REST completamente documentada
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 - Python 3.8+
 - Node.js 14+
 - MySQL 5.7+
 
-## 🔧 Instalación
+##  Instalación
 
 ### Backend (Django)
 
@@ -92,7 +92,7 @@ npm start
 
 El frontend estará disponible en: `http://localhost:3000`
 
-## 📚 API Endpoints
+##  API Endpoints
 
 ### Productos
 - `GET /api/productos/` - Listar productos activos
@@ -115,7 +115,7 @@ El frontend estará disponible en: `http://localhost:3000`
 - `GET /api/categorias/` - Listar categorías disponibles
 - `GET /api/categorias/{id}/` - Obtener categoría por ID
 
-## 🗂️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 farmacia-inventory/
@@ -158,7 +158,7 @@ farmacia-inventory/
 └── README.md
 ```
 
-## 🎨 Categorías de Medicamentos
+##  Categorías de Medicamentos
 
 - Analgésicos
 - Antibióticos
@@ -167,7 +167,7 @@ farmacia-inventory/
 - Antiinflamatorios
 - Antialérgicos
 
-## 🔐 Modelos de Datos
+##  Modelos de Datos
 
 ### Producto
 - `id`: ID autogenerado
@@ -195,7 +195,7 @@ farmacia-inventory/
 - `id`: ID autogenerado
 - `nombre`: Nombre de la categoría (choice field)
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 ### Backend
 - Django 4.2
@@ -210,7 +210,7 @@ farmacia-inventory/
 - Axios
 - CSS3
 
-## 📝 Notas Importantes
+##  Notas Importantes
 
 1. Asegúrese de que MySQL esté corriendo antes de iniciar el backend
 2. El backend debe estar corriendo antes de iniciar el frontend
@@ -218,10 +218,10 @@ farmacia-inventory/
 4. La eliminación de productos es lógica (no se borran de la base de datos)
 5. Los proveedores no se pueden eliminar si tienen productos asociados
 
-## 🤝 Contribución
+##  Contribución
 
 Este proyecto fue desarrollado como parte de una prueba técnica para un sistema de gestión de inventario de farmacia.
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es de código abierto y está disponible bajo la licencia MIT.
